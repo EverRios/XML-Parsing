@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 
 public class vista_individual extends Activity {
-
+    /// Se decalran todas las variables estáticas
     static final String KEY_REGISTRO = "registro"; // parent node
     static final String KEY_ID = "id_persona";
     static final String KEY_NOMBRE = "nombre";
@@ -26,7 +26,7 @@ public class vista_individual extends Activity {
 
         Intent in =getIntent();
 
-        // Get XML values from previous intent
+        // Obtener valores XML de la intención previa
         String id_persona = in.getStringExtra(KEY_ID);
         String nombre = in.getStringExtra(KEY_NOMBRE);
         String apellidos = in.getStringExtra(KEY_APELLIDOS);
@@ -34,7 +34,7 @@ public class vista_individual extends Activity {
         String nivel = in.getStringExtra(KEY_NIVEL);
         String fecha = in.getStringExtra(KEY_FECHA);
 
-        // Displaying all values on the screen
+        // Viendo todos los valores en la pantalla
         TextView lblid = (TextView) findViewById(R.id.txt_idpersona);
         TextView lblnombre = (TextView) findViewById(R.id.txt_nombre);
         TextView lblapellidos = (TextView) findViewById(R.id.txt_apellidos);
@@ -53,7 +53,7 @@ public class vista_individual extends Activity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
+        // Inflar el menú; esto agrega elementos a la barra de acción si está presente.
         getMenuInflater().inflate(R.menu.menu_vista_individual, menu);
         return true;
     }

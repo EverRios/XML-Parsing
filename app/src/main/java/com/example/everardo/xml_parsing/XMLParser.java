@@ -33,7 +33,7 @@ public class XMLParser {
     }
 
     /**
-     * Getting XML from URL making HTTP request
+     * Obtener XML desde la solicitud HTTP toma de URL
      * @param url string
      * */
     public String getXmlFromUrl(String url) {
@@ -55,13 +55,13 @@ public class XMLParser {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        // return XML
+        // retorno XML
         return xml;
     }
 
     /**
-     * Getting XML DOM element
-     * @param //XML string
+     * Conseguir Elemento XML DOM
+     * @param //cadena de XML
      * */
     public Document getDomElement(String xml){
         Document doc = null;
@@ -88,7 +88,7 @@ public class XMLParser {
         return doc;
     }
 
-    /** Getting node value
+    /** Conseguir valor de nodo
      * @param elem element
      */
     public final String getElementValue( Node elem ) {
@@ -106,9 +106,9 @@ public class XMLParser {
     }
 
     /**
-     * Getting node value
-     * @param //Element node
-     * @param //key string
+     * Conseguir valor de nodo
+     * @param //nodo de elementos
+     * @param //cadena de clave
      * */
     public String getValue(Element item, String str) {
         NodeList n = item.getElementsByTagName(str);

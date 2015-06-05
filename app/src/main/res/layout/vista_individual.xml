@@ -8,7 +8,19 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context="com.example.everardo.xml_parsing.vista_individual"
     android:orientation="vertical">
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/idpersona"
+            android:text="@string/id"
+            android:textColor="#ff3b3dff"
+            android:textStyle="bold"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -18,7 +30,21 @@
         android:textStyle="bold"
         android:paddingTop="8dp"
         android:paddingBottom="3dp"
-        />
+        /></LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/nombre"
+            android:text="@string/nombre"
+            android:textColor="#ff3b3dff"
+            android:textStyle="bold"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -27,7 +53,22 @@
         android:textColor="#ab5634"
         android:textStyle="italic"
         android:paddingBottom="3dp"
-        />
+        /></LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/apellidos"
+            android:text="@string/apellidos"
+            android:textColor="#ff3b3dff"
+            android:textStyle="bold"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -36,7 +77,21 @@
         android:textColor="#ab5634"
         android:textStyle="italic"
         android:paddingBottom="3dp"
-        />
+        /></LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tipo"
+            android:text="@string/tipo_examen"
+            android:textColor="#ff3b3dff"
+            android:textStyle="bold"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -45,7 +100,22 @@
         android:textColor="#ab5634"
         android:textStyle="italic"
         android:paddingBottom="3dp"
-        />
+        /></LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/nivel"
+            android:text="@string/nivel"
+            android:textColor="#ff3b3dff"
+            android:textStyle="bold"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -54,7 +124,21 @@
         android:textColor="#ab5634"
         android:textStyle="italic"
         android:paddingBottom="3dp"
-        />
+        /></LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fecha"
+            android:text="@string/fecha"
+            android:textColor="#ff3b3dff"
+            android:textStyle="bold"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -63,5 +147,5 @@
         android:textColor="#ab5634"
         android:textStyle="italic"
         android:paddingBottom="3dp"
-        />
+        /></LinearLayout>
 </LinearLayout>
